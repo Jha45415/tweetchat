@@ -1,0 +1,16 @@
+# IDE files
+.idea/
+*.iml
+
+# Build artifacts
+/tweetchat-backend/target/
+/tweetchat-frontend/dist/
+/tweetchat-frontend/node_modules/
+
+# Log files
+*.log
+
+# Local environment variables
+.env
+/tweetchat-frontend/.env
+/tweetchat-frontend/.env.*

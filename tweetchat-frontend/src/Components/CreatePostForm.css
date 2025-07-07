@@ -1,0 +1,50 @@
+.post-form {
+    background-color: white;
+    border: 1px solid #e1e8ed;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.post-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border: 1px solid #ccd6dd;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form-actions .error-message {
+    color: #e0245e;
+    margin-right: auto; /* Pushes the button to the right */
+}
+
+.form-actions button {
+    background-color: #1da1f2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 9999px; /* Pill-shaped button */
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-actions button:hover {
+    background-color: #0c85d0;
+}
+
+.form-actions button:disabled {
+    background-color: #8ecdf8;
+    cursor: not-allowed;
+}

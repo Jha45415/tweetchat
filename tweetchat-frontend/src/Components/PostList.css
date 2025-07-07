@@ -1,0 +1,40 @@
+.post-list-container {
+    margin-top: 1.5rem;
+}
+
+.post-card {
+    background-color: white;
+    border: 1px solid #e1e8ed;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.post-header a {
+    font-weight: bold;
+    color: #14171a;
+    text-decoration: none;
+}
+
+.post-header a:hover {
+    text-decoration: underline;
+}
+
+.post-text {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    color: #657786;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.post-footer .like-button-container {
+    margin-left: auto;
+}
