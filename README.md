@@ -48,8 +48,8 @@ This project is a demonstration of a modern, containerized, full-stack architect
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/Jha45415/tweetchat.git
+    cd tweetchat
     ```
 
 2.  **Create a local environment file:**
